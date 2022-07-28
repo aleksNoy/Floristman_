@@ -102,7 +102,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     margin-right: 50px;
 }
 
-.personal-area {
+.personal-area img {
+    margin-left: 10px;
 }
 
 .header-main-top {
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 
 
-/*НАВИГАЦИЯ- МОНИТОР*/
+/*НАВИГАЦИЯ-DESCTOP*/
 
 
 .main-header-nav {
@@ -170,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     height: 51px;
 
     background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
-border-radius: 7px;
+    border-radius: 7px;
 }
 
 .main-header-nav-list a {
@@ -184,24 +185,250 @@ border-radius: 7px;
 
 .main-content {
 }
-.main-banner {
+
+/*БАННЕР*/
+
+.main-banner img {
+
+    width: 100%;
+    height: 100%;
+    margin-bottom: 75px;
 }
-.service-section {
+
+/*ВИДЫ ТОВАРОВ И УСЛУГ*/
+
+.categories-section {
+    width: 100%;
 }
-.hidden {
+
+
+.categories-list {
+
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
-.service-list {
+
+.categories-list li {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex: 1 0 25%;
+    max-width:  278px;
+    width: 100%;
+    height: 100%;
+    margin-right: 29px;
+    margin-bottom: 30px;
+
+
 }
+
+.categories-list li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.categories-list li img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.categories-list li h4 {
+
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 62px;
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    flex: 1 0 25%;
+    color: #ffffff;
+    background: rgba(85, 183, 76, 0.8);
+    border-radius: 13px 13px 0px 0px;
+}
+
+.categories-list-low {
+    margin-bottom: 75px;
+}
+
+
+/*АКЦИЯ*/
+
 .promotion-blok {
+
+    width: 100%;
+    margin-bottom: 75px;
+
+    outline: 5px solid rgba(0, 255, 255, 0.3);
 }
+
+.promotion-blok h2 {
+
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
 .promotion-items {
+
+    display: flex;
+
 }
+
+/*КАРТОЧКА ТОВАРА*/
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 278px;
+    width: 100%;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.card-product-up {
+    margin-bottom: 24px;
+}
+
+.card-product-low h3 {
+
+    margin-bottom: 24px;
+    text-align: center;
+
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+.card-product-low p {
+
+    margin-bottom: 24px;
+    text-align: center;
+
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.card-product-low p span {
+
+    margin-left: 10px;
+
+    text-decoration: line-through;
+    color: #898989;
+}
+
+.product-card .add-to-cart {
+
+    width: 100%;
+    height: 50px;
+
+    font-size: 18px;
+    line-height: 24.6px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #55B74C;
+    border-radius: 7px;
+}
+
 .unique-order {
+
+    width: 100%;
+    margin-bottom: 75px;
 }
+
+.unique-order h2 {
+
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.unique-order-block {
+
+    max-width: 689px;
+    padding: 49px 45px 54px;
+
+    border: 1px solid #55B74C;
+    border-radius: 7px;
+}
+
+.unique-order form {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.unique-order input,
+.unique-order textarea {
+
+    margin-bottom: 20px;
+
+    border: 1px solid #55B74C;
+    border-radius: 5px;
+}
+
+.unique-order input {
+    padding: 14px 0 15px 19px;
+}
+
+.unique-order textarea {
+
+    margin-bottom: 23px;
+}
+
 .advantage {
+
+    width: 100%;
+    margin-bottom: 75px;
 }
+
+.advantage h2 {
+
+    margin-bottom: 29px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.advantage-list {
+
+    display: flex;
+}
+
 .how-order {
+
+    width: 100%;
+    margin-bottom: 75px;
 }
+
+.how-order h2 {
+
+    margin-bottom: 29px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.how-order-list {
+
+    display: flex;
+}
+
 .footer-up-block {
 }
 .footer-info-list {
