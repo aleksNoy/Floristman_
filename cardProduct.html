@@ -67,19 +67,27 @@
         </nav>
       </div>
     </header>
+
 <!--ОСНОВНОЙ КОНТЕНТ-->
 
-    <main>
+    <main class="main-card-product">
 
+      <!--ОБРАТНО В МАГАЗИН-->
     <div class="exit-page">
-      <ul>
-        <li><a href="">Обратно в магазин</a></li>
-        <li><a href="">Закрыть</a></li>
+      <ul class="exit-page-list">
+        <li class="back-page">
+          <a href=""><img src="./img/back-page.svg" width="25.5px" height="16px" alt=""> Обратно в магазин</a>
+        </li>
+        <li>
+          <a href=""><img src="./img/close-page.svg" width="30px" height="29px" alt=""></a>
+        </li>
       </ul>
     </div>
 
+    <div class="container">
+      <!--ОПИСАНИЕ ТОВАРА-->
     <section class="description-product">
-
+<!--ФОТОГРАФИИ ТОВАРА-->
         <div class="description-product-photo">
             <ul class="description-product-photo-list">
                 <li></li>
@@ -87,6 +95,7 @@
                 <li></li>
                 <li></li>
             </ul>
+            <!--РАЗМЕР ТОВАРА-->
             <div class="size-product">
                 <span>Размер</span>
                 <span>60 см</span>
@@ -94,9 +103,11 @@
             </div>
         </div>
 
+        <!--БЛОК "ФИЛЬТРА" И РЕКОМЕНДАЦИЙ ПО УХОДУ-->
         <div class="description-product-text">
             <h2>Корзина фиолетовых роз</h2>
             <div class="description-product-price"></div>
+            <!--ФОРМА "ФИЛЬТРА"-->
             <form action="#" method="get">
                 <label for="">Количество</label>
                     <select name="amount-price" id="">
@@ -121,6 +132,7 @@
                 <button type="button">Добавить в корзину</button>
             </form>
 
+            <!--РЕКОМЕНДАЦИИ ПО УХОДУ-->
             <div class="description-product-recommendation">
                 <h3>Рекомендуем соблюдать правила ухода за цветами:</h3>
                 <ol>
@@ -141,10 +153,14 @@
         </div>
     </section>
 
+
+    <!--БЛОК ОТЗЫВЫ-->
     <section class="product-review">
+      <!--КОЛИЧЕСТВО ОТЗЫВОВ-->
         <ul>
             <li><h2>Отзывы (<span class="numder-review-product" ></span>)</h2></li>
             <li>
+              <!--ЗВЕЗДЫ ОТЗЫВА-->
                 <ul class="review-star-list">
                     <li><img src="" alt=""></li>
                     <li><img src="" alt=""></li>
@@ -153,9 +169,11 @@
                     <li><img src="" alt=""></li>
                 </ul>
             </li>
+            <!--ССЫЛКА НА СТРАНИЦУ - НАПИСАТЬ ОТЗЫВ-->
             <li><a href="#">Написать отзыв</a></li>
         </ul>
 
+        <!--ПРИМЕРЫ ОТЗЫВОВ-->
         <ul class="review-product-text">
             <li><h3 class="review-name-user"></h3>
                 <p></p>
@@ -169,31 +187,175 @@
         </ul>
     </section>
 
+    <!--С ЭТИМ ТОВАРОМ ПОКУПАЮТ-->
     <section class="add-ofers">
 
         <h2>С этим товаром покупают:</h2>
+<!--СПИСОК КАРТОЧЕК ТОВАРА-->
+        <ul class="add-ofers-items ">
 
+        <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+            <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
 
-    </section>
+          <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+          <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
 
-    <section class="our-advantage">
-        <ul>
-            <li><img src="" alt="">Круглосуточная доставка</li>
-            <li><img src="" alt="">Фото-отчет</li>
-            <li><img src="" alt="">Приемлемые цены</li>
-            <li><img src="" alt="">Гарантия качества</li>
-            <li><img src="" alt="">Индивидуальный подход</li>
-            <li><img src="" alt="">Бесплатная открытка</li>
-            <li><img src="" alt="">Круглосуточная служба поддержки</li>
+          <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+          <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
+
+          <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+          <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
+
+          <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+            <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
+
+          <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+            <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
+
+          <!--КАРТОЧКА-->
+          <li class="product-card">
+            <!--КАРТИНКА КАРТОЧКИ-->
+            <div class="card-product-up">
+              <a href=""><img src="./img/card_basket_rose.jpg" alt="" /></a>
+            </div>
+            <!--ОПИСАНИЕ КАРТОЧКИ-->
+            <div class="card-product-low">
+              <a href=""><h3>Корзина роз</h3></a>
+              <p>150 руб.<span>190 руб.</span></p>
+            </div>
+            <!--КНОПКА ДОБАВИТЬ В КОРЗИНУ-->
+            <button class="add-to-cart" type="submit" value="">
+              Добавить в корзину
+            </button>
+          </li>
         </ul>
     </section>
+
+    <!--ПРЕИМУЩЕСТВА-->
+    <section class="advantage-product-page">
+      <h2>Почему именно мы?</h2>
+        <ul class="advantage-product-page-list">
+
+            <li class="advantage-product-page-delivery">
+              <img src="./img/features_star_orange.png" width="70px" height="70px" alt="">Круглосуточная доставка
+            </li>
+            <li class="advantage-product-page-photo-report">
+              <img src="./img/features_star_green.png" width="70px" height="70px" alt="">Фотоотчет
+            </li>
+            <li class="advantage-product-page-price">
+              <img src="./img/features_star_green.png" width="70px" height="70px" alt="">Приемлемые цены
+            </li>
+            <li class="advantage-product-page-quality">
+              <img src="./img/features_star_pink.png" width="70px" height="70px" alt="">Гарантия качества
+            </li>
+            <li class="advantage-product-page-individual-approach">
+              <img src="./img/features_star_red.png" width="70px" height="70px" alt="">Индивидуальный подход
+            </li>
+            <li class="advantage-product-page-free-postcard">
+              <img src="./img/features_star_blue.png" width="70px" height="70px" alt="">Бесплатная открытка
+            </li>
+            <li class="advantage-product-page-support">
+              <img src="./img/features_star_green.png" width="70px" height="70px" alt="">Круглосуточная служба поддержки
+            </li>
+        </ul>
+    </section>
+  </div>
 </main>
 
-<footer>
+<footer class="footer-desctop footer-mobile">
+  <div class="container">
+
+    <!--ПОДВАЛ-БЛОК НАВИГАЦИИ-->
+
+     <!--БЛОК ИНФОРМАЦИЯ-->
     <div class="footer-up-block">
-      <div class="footer-info-list">
+      <div class="footer-navigation footer-info">
         <h3>Информация</h3>
-        <ul>
+        <ul class="footer-info-list">
           <li>О нас</li>
           <li>Доставка</li>
           <li>Политика безопасности</li>
@@ -201,9 +363,10 @@
         </ul>
       </div>
 
-      <div class="footer-catalog-list">
+<!--БЛОК КАТАЛОГ-->
+      <div class="footer-navigation footer-catalog">
         <h3>Каталог</h3>
-        <ul>
+        <ul class="footer-catalog-list">
           <li>Цветы</li>
           <li>Подарки</li>
           <li>Фруктовые корзины</li>
@@ -215,69 +378,199 @@
         </ul>
       </div>
 
-      <div class="footer-personal-area-list">
+<!--БЛОК ЛИЧНЫЙ КАБИНЕТ-->
+      <div class="footer-navigation footer-personal-area">
         <h3>Личный кабинет</h3>
-        <ul>
+        <ul class="footer-personal-area-list">
           <li>Личный кабинет</li>
           <li>Корзина</li>
         </ul>
       </div>
 
-      <div class="footer-address">
+
+<!--БЛОК АДРЕС-->
+      <div class="footer-navigation footer-address">
         <h3>Адрес</h3>
-        <ul>
+        <ul class="footer-address-list">
           <li>г.Москва</li>
         </ul>
       </div>
 
-      <div class="footer-contact">
+
+<!--БЛОК "КОНТАКТЫ"-->
+      <div class="footer-navigation footer-contact">
+         <!--ТЕЛЕФОНЫ-->
         <div class="footer-number-phone">
           <h3>Телефоны</h3>
-          <ul>
-            <li></li>
-            <li></li>
+          <ul class="footer-number-phone-list footer-contact-list">
+            <li>
+              <a href="tel:+7(968)7657007">
+                <img src="./img/icon_footer_phone.svg" alt="" />+7 968
+                765-70-07
+              </a>
+            </li>
+            <li>
+              <a href="tel:+7(925)9657007">
+                <img src="./img/icon_footer_phone.svg" alt="" />+7 925
+                965-70-07
+              </a>
+            </li>
           </ul>
         </div>
-        <div class="footer_email">
+
+         <!--ЭЛ.ПОЧТА-->
+        <div class="footer-email">
           <h3>По любым вопросам</h3>
-          <ul>
+          <ul class="footer-email-list footer-contact-list">
             <li><a href="info@floristman.ru">info@floristman.ru</a></li>
           </ul>
         </div>
       </div>
     </div>
 
+
+     <!--ПОДВАЛ-СОЦИАЛЬНЫЙ БЛОК -->
     <div class="footer-down-block">
+
+       <!--ПЛАТЕЖНЫЕ СИСТЕМЫ-->
       <div class="footer-payment-type">
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
+        <ul class="footer-payment-up">
+          <li>
+            <img
+              src="./img/logo_apple-pay.png"
+              width="79.8px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_google-pay.png"
+              width="91.2px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_master_card.png"
+              width="56.1px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_mir.png"
+              width="133px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_paypal.png"
+              width="152px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_qiwi.png"
+              width="72.8px"
+              height="38px"
+              alt=""
+            />
+          </li>
         </ul>
 
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
+        <ul class="footer-payment-low">
+          <li>
+            <img
+              src="./img/logo_pay.png"
+              width="38.15px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_sber.png"
+              width="181.56px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_visa.png"
+              width="93.62px"
+              height="38px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/logo_web_money.png"
+              width="160.1px"
+              height="38px"
+              alt=""
+            />
+          </li>
         </ul>
       </div>
 
+
+       <!--СОЦСЕТИ-->
       <div class="footer-social">
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
+        <ul class="footer-social-list">
+          <li>
+            <img
+              src="./img/icon_youtube.svg"
+              width="35.1px"
+              height="35.1px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/icon_whatsapp.svg"
+              width="35.1px"
+              height="35.1px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/icon_telegram.svg"
+              width="35.1px"
+              height="35.1px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/icon_instagram.svg"
+              width="35.1px"
+              height="35.1px"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/icon_tik-tok.svg"
+              width="35.1px"
+              height="35.1px"
+              alt=""
+            />
+          </li>
         </ul>
       </div>
     </div>
 
     <span class="footer-copyright">FloristMan © 2022</span>
-  </footer>
+  </div>
+</footer>
   </body>
 </html>

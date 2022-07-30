@@ -536,8 +536,6 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     display: flex;
     justify-content: space-between;
     margin-bottom: 73px;
-
-    outline: 5px solid rgba(0, 255, 255, 0.3);
 }
 .footer-payment-type {
 }
@@ -590,31 +588,56 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     margin-bottom: 87px;
 }
 
-.footer-social {
+
+/*КАРТОЧКА ТОВАРА*/
+
+.main-card-product {
+
+
+
+
 }
-.footer-copyright {
-}
-.page-body {
-}
-.container {
-}
-.card_product_header {
-}
-.header {
-}
-.header-info {
-}
-.header-info-list {
-}
-.personal-area {
-}
-.main-header-nav {
-}
-.main-header-nav-list {
-}
+
+
+/*ПОКИНУТЬ СТРАНИЦУ*/
 .exit-page {
+
+    max-width: 1250px;
+    margin: 0 auto;
+     margin-top: 65px;
+    margin-bottom: 49px;
+
+    outline: 5px solid rgba(55, 255, 255, 0.3);
 }
+
+.exit-page-list {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.back-page {
+    margin-top: 4px;
+}
+
+.back-page a{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #898989;
+}
+
+.back-page img {
+    margin-right: 19px;
+    margin-top: 3px;
+}
+
+/*ОПИСАНИЕ ТОВАРА*/
 .description-product {
+
+    margin-bottom: 75px;
 }
 .description-product-photo {
 }
@@ -629,6 +652,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .description-product-recommendation {
 }
 .product-review {
+
+    margin-bottom: 80px;
 }
 .numder-review-product {
 }
@@ -638,31 +663,88 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 .review-name-user {
 }
-.add-ofers {
+
+/*С ЭТИМ ТОВАРОМ ПОКУПАЮТ*/
+.add-ofers  {
+    width: 100%;
+    margin-bottom: 80px;
 }
-.our-advantage {
+
+.add-ofers h2 {
+
+    margin-bottom: 46px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
 }
-.footer-up-block {
+
+.add-ofers-items {
+
+    display: flex;
 }
-.footer-info-list {
+
+/*ПРЕИМУЩЕСТВА НА СТРАНИЦЕ ПРОДУКТА*/
+.advantage-product-page {
+
+    width: 100%;
+    margin-bottom: 47px;
 }
-.footer-catalog-list {
+
+.advantage-product-page h2 {
+
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
 }
-.footer-personal-area-list {
+
+.advantage-product-page-list {
+
+    display: flex;
+    padding: 0 13px;
 }
-.footer-address {
+
+.advantage-product-page-list li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-right: 10%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
 }
-.footer-contact {
+
+.advantage-product-page-list li img {
+    margin-bottom: 15px;
 }
-.footer-number-phone {
+
+.advantage-product-page-delivery {
+    min-width: 275px;
 }
-.footer_email {
+
+.advantage-product-page-photo-report {
+    min-width: 114px;
 }
-.footer-down-block {
+
+.advantage-product-page-price {
+    min-width: 199px;
 }
-.footer-payment-type {
+
+.advantage-product-page-quality {
+    min-width: 199px;
 }
-.footer-social {
+
+.advantage-product-page-individual-approach {
+    min-width: 265px;
 }
-.footer-copyright {
+
+.advantage-product-page-free-postcard {
+    min-width: 230px;
+}
+
+.advantage-product-page-support {
+    min-width: 255px;
 }
